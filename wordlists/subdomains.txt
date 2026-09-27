@@ -1,0 +1,11 @@
+www
+mail
+ftp
+admin
+dev
+staging
+test
+api
+app
+blog
+cdn

